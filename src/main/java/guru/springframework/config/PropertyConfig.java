@@ -29,7 +29,7 @@ public class PropertyConfig {
     @Value("${guru.jms.password}")
     String jmsPassword;
 
-    @Value("${guru.jms.dburl}")
+    @Value("${guru.jms.url}")
     String jmsUrl;
 
     @Bean
